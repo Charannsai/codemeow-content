@@ -1,63 +1,110 @@
-[
-  {
-    "title": "Getting Started with Python",
-    "path": "getting_started",
-    "type": "language",
-    "description": "Introduction to syntax, print statements, and running your first code."
-  },
-  {
-    "title": "Variables and Data Types",
-    "path": "variables",
-    "type": "language",
-    "description": "Learn about variables, strings, numbers, and booleans."
-  },
-  {
-    "title": "Conditionals and Loops",
-    "path": "conditionals_loops",
-    "type": "language",
-    "description": "Master if-else, while loops, and for loops with practical examples."
-  },
-  {
-    "title": "Functions and Scope",
-    "path": "functions",
-    "type": "language",
-    "description": "Understand how to create and use functions, parameters, and return values."
-  },
-  {
-    "title": "Lists and Arrays",
-    "path": "arrays",
-    "type": "dsa",
-    "description": "Explore Python lists and how arrays are used in real problems."
-  },
-  {
-    "title": "Searching and Sorting",
-    "path": "search_sort",
-    "type": "dsa",
-    "description": "Implement linear search, binary search, and basic sorting algorithms."
-  },
-  {
-    "title": "Stacks and Queues",
-    "path": "stacks_queues",
-    "type": "dsa",
-    "description": "Learn about LIFO and FIFO data structures and where they are used."
-  },
-  {
-    "title": "Linked Lists",
-    "path": "linked_lists",
-    "type": "dsa",
-    "description": "Understand node-based dynamic lists and their operations."
-  },
-  {
-    "title": "Hash Maps (Dictionaries)",
-    
-    "path": "hashmaps",
-    "type": "dsa",
-    "description": "Use dictionaries to store and retrieve data efficiently."
-  },
-  {
-    "title": "Basic Recursion",
-    "path": "recursion",
-    "type": "dsa",
-    "description": "Solve problems by thinking recursively."
-  }
-]
+{
+  "estimated_duration": "4-6 weeks",
+  "concepts": [
+    {
+      "title": "What is Coding?",
+      "path": "whatiscoding",
+      "description": "Understand the basics of coding, why it's important, and how it works with real-world examples.",
+      "estimated_time": 30,
+      "prerequisites": []
+    },
+    {
+      "title": "Variables & Data Types",
+      "path": "variables-and-data-types",
+      "description": "Learn about variables, numbers, strings, and basic data types",
+      "estimated_time": 45,
+      "prerequisites": ["what-is-coding"]
+    },
+    {
+      "title": "Operators & Expressions",
+      "path": "operators-and-expressions",
+      "description": "Understand arithmetic, logical, and comparison operators",
+      "estimated_time": 40,
+      "prerequisites": ["variables-and-data-types"]
+    },
+    {
+      "title": "Control Flow",
+      "path": "control-flow",
+      "description": "Use if, else, elif to control program flow",
+      "estimated_time": 60,
+      "prerequisites": ["operators-and-expressions"]
+    },
+    {
+      "title": "Loops",
+      "path": "loops",
+      "description": "Master for-loops and while-loops for iteration",
+      "estimated_time": 60,
+      "prerequisites": ["control-flow"]
+    },
+    {
+      "title": "Functions",
+      "path": "functions",
+      "description": "Write reusable code using functions and parameters",
+      "estimated_time": 75,
+      "prerequisites": ["loops"]
+    },
+    {
+      "title": "Lists & Tuples",
+      "path": "lists-and-tuples",
+      "description": "Understand how to use lists and tuples for data storage",
+      "estimated_time": 60,
+      "prerequisites": ["functions"]
+    },
+    {
+      "title": "Dictionaries & Sets",
+      "path": "dictionaries-and-sets",
+      "description": "Use dictionaries and sets for mapping and unique data",
+      "estimated_time": 60,
+      "prerequisites": ["lists-and-tuples"]
+    },
+    {
+      "title": "String Manipulation",
+      "path": "string-manipulation",
+      "description": "Perform operations and formatting on strings",
+      "estimated_time": 45,
+      "prerequisites": ["variables-and-data-types"]
+    },
+    {
+      "title": "File Handling",
+      "path": "file-handling",
+      "description": "Read from and write to files",
+      "estimated_time": 60,
+      "prerequisites": ["functions"]
+    },
+    {
+      "title": "Error Handling",
+      "path": "error-handling",
+      "description": "Use try-except blocks to manage errors gracefully",
+      "estimated_time": 45,
+      "prerequisites": ["file-handling"]
+    },
+    {
+      "title": "Modules & Packages",
+      "path": "modules-and-packages",
+      "description": "Structure your code with modules and packages",
+      "estimated_time": 45,
+      "prerequisites": ["functions"]
+    },
+    {
+      "title": "Object-Oriented Programming",
+      "path": "oop",
+      "description": "Learn classes, objects, inheritance, and encapsulation",
+      "estimated_time": 90,
+      "prerequisites": ["functions"]
+    },
+    {
+      "title": "Working with Libraries",
+      "path": "libraries",
+      "description": "Use standard and third-party libraries (like math, random, datetime)",
+      "estimated_time": 45,
+      "prerequisites": ["modules-and-packages"]
+    },
+    {
+      "title": "Basic Algorithms & Problem Solving",
+      "path": "basic-algorithms",
+      "description": "Apply Python knowledge to solve simple algorithmic problems",
+      "estimated_time": 90,
+      "prerequisites": ["loops", "functions", "lists-and-tuples"]
+    }
+  ]
+}
