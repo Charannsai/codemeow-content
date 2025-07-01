@@ -1,0 +1,62 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the primary purpose of coding?",
+    "type": "mcq",
+    "options": [
+      "To decorate websites",
+      "To give instructions to a computer",
+      "To use social media",
+      "To design graphics"
+    ],
+    "correct_answer": "To give instructions to a computer",
+    "explanation": "Coding is the process of writing instructions that a computer can understand and execute."
+  },
+  {
+    "id": "q2",
+    "question": "Which of the following is considered a programming language?",
+    "type": "mcq",
+    "options": [
+      "HTML",
+      "Python",
+      "CSS",
+      "Photoshop"
+    ],
+    "correct_answer": "Python",
+    "explanation": "Python is a full-fledged programming language. HTML and CSS are markup and style languages."
+  },
+  {
+    "id": "q3",
+    "question": "True or False: Coding is only for computer experts.",
+    "type": "boolean",
+    "options": ["True", "False"],
+    "correct_answer": "False",
+    "explanation": "Anyone can learn to code, and there are many beginner-friendly resources and tools available."
+  },
+  {
+    "id": "q4",
+    "question": "Which of the following tasks can be automated using code?",
+    "type": "mcq",
+    "options": [
+      "Sending daily emails",
+      "Washing dishes",
+      "Walking the dog",
+      "Making toast"
+    ],
+    "correct_answer": "Sending daily emails",
+    "explanation": "Code can automate digital tasks like sending emails or processing data, but not physical ones like washing dishes."
+  },
+  {
+    "id": "q5",
+    "question": "Which device does NOT run on code?",
+    "type": "mcq",
+    "options": [
+      "Smartphone",
+      "Microwave",
+      "Television",
+      "Paper notebook"
+    ],
+    "correct_answer": "Paper notebook",
+    "explanation": "Unlike electronic devices, a paper notebook has no software or code inside."
+  }
+]
