@@ -1,6 +1,4 @@
-{
-  "level": "beginner",
-  "problems": [
+[
     {
       "id": "b1",
       "title": "Sum of Two Numbers",
@@ -31,4 +29,3 @@
       "tags": ["if-else", "comparison"]
     }
   ]
-}

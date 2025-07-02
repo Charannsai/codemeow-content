@@ -1,6 +1,4 @@
-{
-  "level": "intermediate",
-  "problems": [
+[
     {
       "id": "i1",
       "title": "Palindrome Check",
@@ -31,4 +29,3 @@
       "tags": ["math", "array", "xor"]
     }
   ]
-}

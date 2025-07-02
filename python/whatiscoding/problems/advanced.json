@@ -1,6 +1,4 @@
-{
-  "level": "advanced",
-  "problems": [
+[
     {
       "id": "a1",
       "title": "Longest Substring Without Repeating Characters",
@@ -31,4 +29,3 @@
       "tags": ["dynamic-programming", "greedy"]
     }
   ]
-}
