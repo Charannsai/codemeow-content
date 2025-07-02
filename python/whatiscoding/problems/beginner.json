@@ -1,0 +1,34 @@
+{
+  "level": "beginner",
+  "problems": [
+    {
+      "id": "b1",
+      "title": "Sum of Two Numbers",
+      "type": "code",
+      "description": "Write a function that returns the sum of two integers.",
+      "input_format": "Two integers a and b",
+      "output_format": "Return an integer",
+      "constraints": "1 <= a, b <= 1000",
+      "tags": ["math", "input-output"]
+    },
+    {
+      "id": "b2",
+      "title": "Data Type of Value",
+      "type": "mcq",
+      "description": "What is the data type of `5.0` in Python?",
+      "options": ["int", "float", "str", "bool"],
+      "answer": "float",
+      "tags": ["python", "variables"]
+    },
+    {
+      "id": "b3",
+      "title": "Find Maximum of Two",
+      "type": "code",
+      "description": "Return the maximum of two given numbers.",
+      "input_format": "Two integers x and y",
+      "output_format": "Return the maximum value",
+      "constraints": "-1000 <= x, y <= 1000",
+      "tags": ["if-else", "comparison"]
+    }
+  ]
+}
