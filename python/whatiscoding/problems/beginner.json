@@ -1,22 +1,35 @@
 [
-    {
-      "id": "1",
-      "title": "Sum of Two Numbers",
-      "type": "code",
-      "description": "Write a function that returns the sum of two integers.",
-      "input_format": "Two integers a and b",
-      "output_format": "Return an integer",
-      "constraints": "1 <= a, b <= 1000",
-      "tags": ["math", "input-output"]
-    },
-    {
-      "id": "2",
-      "title": "Find Maximum of Two",
-      "type": "code",
-      "description": "Return the maximum of two given numbers.",
-      "input_format": "Two integers x and y",
-      "output_format": "Return the maximum value",
-      "constraints": "-1000 <= x, y <= 1000",
-      "tags": ["if-else", "comparison"]
-    }
-  ]
+  {
+    "id": "1",
+    "title": "Longest Substring Without Repeating Characters",
+    "type": "code",
+    "difficulty": "beginner",
+    "description": "Find the length of the longest substring without repeating characters.",
+    "input_format": "A string s",
+    "output_format": "An integer",
+    "constraints": "0 <= len(s) <= 5000",
+    "tags": ["sliding-window", "strings", "hashmap"]
+  },
+  {
+    "id": "2",
+    "title": "Merge Intervals",
+    "type": "code",
+    "difficulty": "intermediate",
+    "description": "Given a collection of intervals, merge all overlapping intervals.",
+    "input_format": "An array of intervals represented as pairs of integers",
+    "output_format": "An array of merged intervals",
+    "constraints": "1 <= intervals.length <= 10^4",
+    "tags": ["sorting", "greedy"]
+  },
+  {
+    "id": "3",
+    "title": "Coin Change - Minimum Coins",
+    "type": "code",
+    "difficulty": "advanced",
+    "description": "Given coin denominations and an amount, return the fewest coins needed to make up that amount.",
+    "input_format": "An array of integers coins[], and an integer amount",
+    "output_format": "Minimum number of coins or -1 if not possible",
+    "constraints": "1 <= amount <= 10^4",
+    "tags": ["dynamic-programming", "greedy"]
+  }
+]
