@@ -28,7 +28,7 @@
   {
     "id": "q3",
     "question": "True or False: Coding is only for computer experts.",
-    "type": "boolean",
+    "type": "mcq",
     "options": ["True", "False"],
     "correct_answer": "False",
     "explanation": "Anyone can learn to code, and there are many beginner-friendly resources and tools available."
