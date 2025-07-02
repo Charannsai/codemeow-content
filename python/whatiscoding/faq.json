@@ -1,5 +1,4 @@
-{
-  "faqs": [
+[
     {
       "question": "What exactly is coding?",
       "answer": "Coding is the process of writing instructions that a computer can understand and execute. These instructions are written in programming languages like Python, JavaScript, or C++."
@@ -33,4 +32,3 @@
       "answer": "Like any new skill, it can feel challenging at first. But with practice, hands-on projects, and the right resources (like CodeMeow 🐱), it becomes much easier and fun!"
     }
   ]
-}
