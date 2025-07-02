@@ -1,6 +1,6 @@
 [
     {
-      "id": "a1",
+      "id": "1",
       "title": "Longest Substring Without Repeating Characters",
       "type": "code",
       "description": "Find the length of the longest substring without repeating characters.",
@@ -10,7 +10,7 @@
       "tags": ["sliding-window", "strings", "hashmap"]
     },
     {
-      "id": "a2",
+      "id": "2",
       "title": "Merge Intervals",
       "type": "code",
       "description": "Given a collection of intervals, merge all overlapping intervals.",
@@ -20,7 +20,7 @@
       "tags": ["sorting", "greedy"]
     },
     {
-      "id": "a3",
+      "id": "3",
       "title": "Coin Change - Minimum Coins",
       "type": "code",
       "description": "Given coin denominations and an amount, return the fewest coins needed to make up that amount.",

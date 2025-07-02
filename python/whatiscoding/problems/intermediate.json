@@ -1,6 +1,6 @@
 [
     {
-      "id": "i1",
+      "id": "1",
       "title": "Palindrome Check",
       "type": "code",
       "description": "Check whether the given string is a palindrome or not.",
@@ -10,7 +10,7 @@
       "tags": ["strings", "two-pointers"]
     },
     {
-      "id": "i3",
+      "id": "3",
       "title": "Find Missing Number",
       "type": "code",
       "description": "Given an array of n-1 integers in the range from 1 to n, find the missing number.",

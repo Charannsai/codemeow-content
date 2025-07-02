@@ -1,6 +1,6 @@
 [
     {
-      "id": "b1",
+      "id": "1",
       "title": "Sum of Two Numbers",
       "type": "code",
       "description": "Write a function that returns the sum of two integers.",
@@ -10,7 +10,7 @@
       "tags": ["math", "input-output"]
     },
     {
-      "id": "b3",
+      "id": "2",
       "title": "Find Maximum of Two",
       "type": "code",
       "description": "Return the maximum of two given numbers.",
