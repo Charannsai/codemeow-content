@@ -34,6 +34,67 @@ When you write code, you:
 2. The code is sent through a **compiler** (for compiled languages like C++) or an **interpreter** (for interpreted languages like Python).
 3. The computer translates these instructions into **machine code** (binary: 0s and 1s).
 4. The machine code is executed by the computer's CPU to perform the task.
+---
+
+## 🧩 How Does Coding Work?
+
+When you write code, you:
+
+1. Write **instructions** using a syntax the language understands (like Python or Java).
+2. The code is sent through a **compiler** (for compiled languages like C++) or an **interpreter** (for interpreted languages like Python).
+3. The computer translates these instructions into **machine code** (binary: 0s and 1s).
+4. The machine code is executed by the computer's CPU to perform the task.
+
+---
+
+## 🧩 How Does Coding Work?
+
+When you write code, you:
+
+1. Write **instructions** using a syntax the language understands (like Python or Java).
+2. The code is sent through a **compiler** (for compiled languages like C++) or an **interpreter** (for interpreted languages like Python).
+3. The computer translates these instructions into **machine code** (binary: 0s and 1s).
+4. The machine code is executed by the computer's CPU to perform the task.
+---
+
+## 🧩 How Does Coding Work?
+
+When you write code, you:
+
+1. Write **instructions** using a syntax the language understands (like Python or Java).
+2. The code is sent through a **compiler** (for compiled languages like C++) or an **interpreter** (for interpreted languages like Python).
+3. The computer translates these instructions into **machine code** (binary: 0s and 1s).
+4. The machine code is executed by the computer's CPU to perform the task.
+---
+
+## 🧩 How Does Coding Work?
+
+When you write code, you:
+
+1. Write **instructions** using a syntax the language understands (like Python or Java).
+2. The code is sent through a **compiler** (for compiled languages like C++) or an **interpreter** (for interpreted languages like Python).
+3. The computer translates these instructions into **machine code** (binary: 0s and 1s).
+4. The machine code is executed by the computer's CPU to perform the task.
+---
+
+## 🧩 How Does Coding Work?
+
+When you write code, you:
+
+1. Write **instructions** using a syntax the language understands (like Python or Java).
+2. The code is sent through a **compiler** (for compiled languages like C++) or an **interpreter** (for interpreted languages like Python).
+3. The computer translates these instructions into **machine code** (binary: 0s and 1s).
+4. The machine code is executed by the computer's CPU to perform the task.
+---
+
+## 🧩 How Does Coding Work?
+
+When you write code, you:
+
+1. Write **instructions** using a syntax the language understands (like Python or Java).
+2. The code is sent through a **compiler** (for compiled languages like C++) or an **interpreter** (for interpreted languages like Python).
+3. The computer translates these instructions into **machine code** (binary: 0s and 1s).
+4. The machine code is executed by the computer's CPU to perform the task.
 
 ---
 
@@ -50,3 +111,4 @@ Step 5: Add vegetables and rice
 Step 6: Stir for 10 minutes
 Step 7: Add salt and spices
 Step 8: Serve hot
+
