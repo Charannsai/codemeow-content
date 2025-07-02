@@ -1,110 +1,244 @@
 {
-  "estimated_duration": "4-6 weeks",
-  "concepts": [
+  "estimated_duration": "8-10 weeks",
+  "categories": [
     {
-      "title": "What is Coding?",
-      "path": "whatiscoding",
-      "description": "Understand the basics of coding, why it's important, and how it works with real-world examples.",
-      "estimated_time": 30,
-      "prerequisites": []
+      "title": "Language Core Concepts",
+      "concepts": [
+        {
+          "title": "What is Coding?",
+          "path": "whatiscoding",
+          "description": "Understand the basics of coding, why it's important, and how it works with real-world examples.",
+          "estimated_time": 30,
+          "prerequisites": []
+        },
+        {
+          "title": "Variables & Data Types",
+          "path": "variables-and-data-types",
+          "description": "Learn about variables, numbers, strings, and basic data types.",
+          "estimated_time": 45,
+          "prerequisites": ["whatiscoding"]
+        },
+        {
+          "title": "Operators & Expressions",
+          "path": "operators-and-expressions",
+          "description": "Understand arithmetic, logical, and comparison operators.",
+          "estimated_time": 40,
+          "prerequisites": ["variables-and-data-types"]
+        },
+        {
+          "title": "Control Flow",
+          "path": "control-flow",
+          "description": "Use if, else, elif to control program flow.",
+          "estimated_time": 60,
+          "prerequisites": ["operators-and-expressions"]
+        },
+        {
+          "title": "Loops",
+          "path": "loops",
+          "description": "Master for-loops and while-loops for iteration.",
+          "estimated_time": 60,
+          "prerequisites": ["control-flow"]
+        },
+        {
+          "title": "Functions",
+          "path": "functions",
+          "description": "Write reusable code using functions and parameters.",
+          "estimated_time": 75,
+          "prerequisites": ["loops"]
+        },
+        {
+          "title": "Lists & Tuples",
+          "path": "lists-and-tuples",
+          "description": "Understand how to use lists and tuples for data storage.",
+          "estimated_time": 60,
+          "prerequisites": ["functions"]
+        },
+        {
+          "title": "Dictionaries & Sets",
+          "path": "dictionaries-and-sets",
+          "description": "Use dictionaries and sets for mapping and unique data.",
+          "estimated_time": 60,
+          "prerequisites": ["lists-and-tuples"]
+        },
+        {
+          "title": "String Manipulation",
+          "path": "string-manipulation",
+          "description": "Perform operations and formatting on strings.",
+          "estimated_time": 45,
+          "prerequisites": ["variables-and-data-types"]
+        },
+        {
+          "title": "File Handling",
+          "path": "file-handling",
+          "description": "Read from and write to files.",
+          "estimated_time": 60,
+          "prerequisites": ["functions"]
+        },
+        {
+          "title": "Error Handling",
+          "path": "error-handling",
+          "description": "Use try-except blocks to manage errors gracefully.",
+          "estimated_time": 45,
+          "prerequisites": ["file-handling"]
+        },
+        {
+          "title": "Modules & Packages",
+          "path": "modules-and-packages",
+          "description": "Structure your code with modules and packages.",
+          "estimated_time": 45,
+          "prerequisites": ["functions"]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "path": "oop",
+          "description": "Learn classes, objects, inheritance, and encapsulation.",
+          "estimated_time": 90,
+          "prerequisites": ["functions"]
+        },
+        {
+          "title": "Working with Libraries",
+          "path": "libraries",
+          "description": "Use standard and third-party libraries (like math, random, datetime).",
+          "estimated_time": 45,
+          "prerequisites": ["modules-and-packages"]
+        }
+      ]
     },
     {
-      "title": "Variables & Data Types",
-      "path": "variables-and-data-types",
-      "description": "Learn about variables, numbers, strings, and basic data types",
-      "estimated_time": 45,
-      "prerequisites": ["what-is-coding"]
+      "title": "DSA Fundamentals",
+      "concepts": [
+        {
+          "title": "Basic Algorithms & Problem Solving",
+          "path": "basic-algorithms",
+          "description": "Apply programming knowledge to solve simple algorithmic problems.",
+          "estimated_time": 90,
+          "prerequisites": ["loops", "functions", "lists-and-tuples"]
+        },
+        {
+          "title": "Arrays and Strings",
+          "path": "arrays-and-strings",
+          "description": "Learn about linear data structures like arrays and strings.",
+          "estimated_time": 75,
+          "prerequisites": ["lists-and-tuples"]
+        },
+        {
+          "title": "Linked Lists",
+          "path": "linked-lists",
+          "description": "Understand how linked lists work and their operations.",
+          "estimated_time": 60,
+          "prerequisites": ["arrays-and-strings"]
+        },
+        {
+          "title": "Stacks & Queues",
+          "path": "stacks-queues",
+          "description": "Learn about LIFO and FIFO data structures and their use cases.",
+          "estimated_time": 60,
+          "prerequisites": ["linked-lists"]
+        },
+        {
+          "title": "Recursion",
+          "path": "recursion",
+          "description": "Master the concept of functions calling themselves.",
+          "estimated_time": 60,
+          "prerequisites": ["functions"]
+        },
+        {
+          "title": "Searching Algorithms",
+          "path": "searching",
+          "description": "Understand linear and binary search techniques.",
+          "estimated_time": 45,
+          "prerequisites": ["arrays-and-strings"]
+        },
+        {
+          "title": "Sorting Algorithms",
+          "path": "sorting",
+          "description": "Learn common sorting techniques like bubble, selection, and merge sort.",
+          "estimated_time": 75,
+          "prerequisites": ["arrays-and-strings"]
+        },
+        {
+          "title": "Hashing",
+          "path": "hashing",
+          "description": "Understand hash maps and sets for efficient lookups.",
+          "estimated_time": 60,
+          "prerequisites": ["dictionaries-and-sets"]
+        },
+        {
+          "title": "Trees",
+          "path": "trees",
+          "description": "Learn about binary trees, traversals, and applications.",
+          "estimated_time": 90,
+          "prerequisites": ["recursion"]
+        },
+        {
+          "title": "Graphs",
+          "path": "graphs",
+          "description": "Understand graphs, BFS, DFS, and shortest path algorithms.",
+          "estimated_time": 90,
+          "prerequisites": ["trees"]
+        }
+      ]
     },
     {
-      "title": "Operators & Expressions",
-      "path": "operators-and-expressions",
-      "description": "Understand arithmetic, logical, and comparison operators",
-      "estimated_time": 40,
-      "prerequisites": ["variables-and-data-types"]
-    },
-    {
-      "title": "Control Flow",
-      "path": "control-flow",
-      "description": "Use if, else, elif to control program flow",
-      "estimated_time": 60,
-      "prerequisites": ["operators-and-expressions"]
-    },
-    {
-      "title": "Loops",
-      "path": "loops",
-      "description": "Master for-loops and while-loops for iteration",
-      "estimated_time": 60,
-      "prerequisites": ["control-flow"]
-    },
-    {
-      "title": "Functions",
-      "path": "functions",
-      "description": "Write reusable code using functions and parameters",
-      "estimated_time": 75,
-      "prerequisites": ["loops"]
-    },
-    {
-      "title": "Lists & Tuples",
-      "path": "lists-and-tuples",
-      "description": "Understand how to use lists and tuples for data storage",
-      "estimated_time": 60,
-      "prerequisites": ["functions"]
-    },
-    {
-      "title": "Dictionaries & Sets",
-      "path": "dictionaries-and-sets",
-      "description": "Use dictionaries and sets for mapping and unique data",
-      "estimated_time": 60,
-      "prerequisites": ["lists-and-tuples"]
-    },
-    {
-      "title": "String Manipulation",
-      "path": "string-manipulation",
-      "description": "Perform operations and formatting on strings",
-      "estimated_time": 45,
-      "prerequisites": ["variables-and-data-types"]
-    },
-    {
-      "title": "File Handling",
-      "path": "file-handling",
-      "description": "Read from and write to files",
-      "estimated_time": 60,
-      "prerequisites": ["functions"]
-    },
-    {
-      "title": "Error Handling",
-      "path": "error-handling",
-      "description": "Use try-except blocks to manage errors gracefully",
-      "estimated_time": 45,
-      "prerequisites": ["file-handling"]
-    },
-    {
-      "title": "Modules & Packages",
-      "path": "modules-and-packages",
-      "description": "Structure your code with modules and packages",
-      "estimated_time": 45,
-      "prerequisites": ["functions"]
-    },
-    {
-      "title": "Object-Oriented Programming",
-      "path": "oop",
-      "description": "Learn classes, objects, inheritance, and encapsulation",
-      "estimated_time": 90,
-      "prerequisites": ["functions"]
-    },
-    {
-      "title": "Working with Libraries",
-      "path": "libraries",
-      "description": "Use standard and third-party libraries (like math, random, datetime)",
-      "estimated_time": 45,
-      "prerequisites": ["modules-and-packages"]
-    },
-    {
-      "title": "Basic Algorithms & Problem Solving",
-      "path": "basic-algorithms",
-      "description": "Apply Python knowledge to solve simple algorithmic problems",
-      "estimated_time": 90,
-      "prerequisites": ["loops", "functions", "lists-and-tuples"]
+      "title": "Problem-Solving Patterns",
+      "concepts": [
+        {
+          "title": "Sliding Window",
+          "path": "sliding-window",
+          "description": "Optimize subarray problems using the sliding window approach.",
+          "estimated_time": 50,
+          "prerequisites": ["arrays-and-strings"]
+        },
+        {
+          "title": "Two Pointers",
+          "path": "two-pointers",
+          "description": "Use two-pointer technique to reduce complexity in sorted arrays.",
+          "estimated_time": 50,
+          "prerequisites": ["arrays-and-strings"]
+        },
+        {
+          "title": "Fast and Slow Pointers",
+          "path": "fast-slow-pointers",
+          "description": "Detect cycles in linked lists and other clever tricks.",
+          "estimated_time": 45,
+          "prerequisites": ["linked-lists"]
+        },
+        {
+          "title": "Backtracking",
+          "path": "backtracking",
+          "description": "Build all possible solutions recursively and undo steps when needed.",
+          "estimated_time": 60,
+          "prerequisites": ["recursion"]
+        },
+        {
+          "title": "Greedy",
+          "path": "greedy",
+          "description": "Make locally optimal choices to solve global problems.",
+          "estimated_time": 60,
+          "prerequisites": ["sorting"]
+        },
+        {
+          "title": "Divide and Conquer",
+          "path": "divide-and-conquer",
+          "description": "Split problems into subproblems, solve recursively, then combine.",
+          "estimated_time": 60,
+          "prerequisites": ["recursion"]
+        },
+        {
+          "title": "Dynamic Programming",
+          "path": "dynamic-programming",
+          "description": "Store solutions to subproblems to avoid recomputation.",
+          "estimated_time": 90,
+          "prerequisites": ["recursion"]
+        },
+        {
+          "title": "Bit Manipulation",
+          "path": "bit-manipulation",
+          "description": "Solve problems using binary operations like XOR, AND, OR.",
+          "estimated_time": 60,
+          "prerequisites": ["variables-and-data-types"]
+        }
+      ]
     }
   ]
 }
