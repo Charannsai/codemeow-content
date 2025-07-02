@@ -1,17 +1,5 @@
 [
     {
-      "question": "What exactly is coding?",
-      "answer": "Coding is the process of writing instructions that a computer can understand and execute. These instructions are written in programming languages like Python, JavaScript, or C++."
-    },
-    {
-      "question": "Why is coding important?",
-      "answer": "Coding powers everything from websites and apps to self-driving cars and medical software. It helps automate tasks, build digital tools, and solve complex problems efficiently."
-    },
-    {
-      "question": "Do I need to be good at math to learn coding?",
-      "answer": "Basic math helps, but you don’t need to be a math genius. Logical thinking and problem-solving skills are more important for beginner-level coding."
-    },
-    {
       "question": "What can I build by learning coding?",
       "answer": "You can build websites, mobile apps, games, automation tools, AI models, and even hardware-related systems like robots or IoT devices."
     },
