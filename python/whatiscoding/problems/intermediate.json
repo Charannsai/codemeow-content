@@ -10,15 +10,6 @@
       "tags": ["strings", "two-pointers"]
     },
     {
-      "id": "i2",
-      "title": "Output of Python Code",
-      "type": "mcq",
-      "description": "What is the output of:\n\n```python\nprint(2 ** 3 ** 2)\n```",
-      "options": ["64", "512", "256", "Error"],
-      "answer": "512",
-      "tags": ["python", "operators"]
-    },
-    {
       "id": "i3",
       "title": "Find Missing Number",
       "type": "code",

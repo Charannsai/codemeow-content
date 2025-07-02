@@ -11,12 +11,13 @@
     },
     {
       "id": "a2",
-      "title": "Output of Recursive Code",
-      "type": "mcq",
-      "description": "What is the output of:\n\n```python\ndef f(n):\n  if n == 0:\n    return 0\n  return n + f(n-1)\nprint(f(4))\n```",
-      "options": ["4", "10", "6", "None"],
-      "answer": "10",
-      "tags": ["recursion", "mcq"]
+      "title": "Merge Intervals",
+      "type": "code",
+      "description": "Given a collection of intervals, merge all overlapping intervals.",
+      "input_format": "An array of intervals represented as pairs of integers",
+      "output_format": "An array of merged intervals",
+      "constraints": "1 <= intervals.length <= 10^4",
+      "tags": ["sorting", "greedy"]
     },
     {
       "id": "a3",

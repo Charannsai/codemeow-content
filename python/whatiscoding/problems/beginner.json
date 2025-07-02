@@ -10,15 +10,6 @@
       "tags": ["math", "input-output"]
     },
     {
-      "id": "b2",
-      "title": "Data Type of Value",
-      "type": "mcq",
-      "description": "What is the data type of `5.0` in Python?",
-      "options": ["int", "float", "str", "bool"],
-      "answer": "float",
-      "tags": ["python", "variables"]
-    },
-    {
       "id": "b3",
       "title": "Find Maximum of Two",
       "type": "code",
